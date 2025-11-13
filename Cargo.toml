@@ -1,0 +1,15 @@
+[package]
+name = "blindves"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bls12_381 = { version = "0.8.0", features = ["experimental"] }
+rand_core = "0.6.4"
+ff = "0.13.1"
+group = "0.13.0"
+rand = "0.8"
+sha2 = "0.9"
+digest = "0.9.0"
+secp256kfun = { version = "0.7", features = ["serde"] }
+csv = "1.3"
